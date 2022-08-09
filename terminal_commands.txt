@@ -1,0 +1,35 @@
+terminal:
+
+Pwd - tells you the directory
+Ls - tells you the files inside the directory
+Ls -a tells you all files inside. Can use a-z for diff function I.e. ls -g
+Clear - puts you into a new page
+Man __ - gives you a manual for that command. I.e. man ls
+Cd - change directory I.e cd Documents/ or Documents/Zoom
+^can press tab to auto find directory name
+Cd .. or cd … , etc. - takes you up the directory
+Cd - writing cd itself takes you back to the root
+Mkdir - make directory I.e. mkdir my_directory my_coursework
+Touch - create file I.e. touch my_file.txt
+^ if you put “my file” you can put space
+Open - to open file I.e. open my_file.txt
+Rm - to remove a file I.e. rm my_file.txt
+Rm -r removes a directory 
+^ Rm -rf force removes a directory
+Mv - to move file I.e. mv my_file.txt ..
+^ can also rename I.e. mv my_file.txt my_blank_text.txt will change name to latter
+Cp - copy file into diff directory I.e. cp my_file.txt my_directory
+Control c - will bring u back to the terminal 
+Command t will bring up a new tab
+
+Git:
+
+Git init - creates repository 
+Git status - displays the state of the working directory and the staging area
+Git add - adds new files into the working directory i.e. git add facts.txt
+^ would need to touch then git add when first creating file.
+Git add . - adds everything in the current directory
+Git commit -m “add facts.txt” - creates a snapshot of your repo at a specific point in time. The text added gives an indication of what happened.
+Git log - shows history of changes made (get first 7 characters of commit to revert content)
+^ press q to come out of log
+Git revert ‘7 characters from commit’ - allows you to change what you have inputted to the commit
